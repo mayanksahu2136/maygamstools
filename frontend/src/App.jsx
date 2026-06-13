@@ -5,6 +5,7 @@ import ImgToPdf from "./pages/ImgToPdf";
 import PdfToImg from "./pages/PdfToImg";
 import ImageResizer from "./pages/ImageResizer";
 import BackgroundRemover from "./pages/BackgroundRemover";
+import PhotoEnhancer from "./pages/PhotoEnhancer";
 
 
 function App() {
@@ -28,6 +29,11 @@ function App() {
         <Route
           path="/tools/image-resizer"
           element={<ImageResizer />}
+        />
+
+        <Route
+          path="/tools/photo-enhancer"
+          element={<PhotoEnhancer />}
         />
 
         <Route

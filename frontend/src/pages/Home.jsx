@@ -116,10 +116,10 @@ export default function Home() {
           />
 
           <ToolCard
-            title="QR Generator"
-            description="Create QR codes instantly."
-            path="#"
-            status="Coming Soon"
+            title="Photo Enhancer"
+            description="AI-powered image enhancement and upscaling."
+            path="/tools/photo-enhancer"
+    
           />
 
           <ToolCard
